@@ -153,9 +153,10 @@ footer nav a {
 nav {
 
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    padding: 10px;
     width: 100%;
     
 			  
@@ -163,8 +164,11 @@ nav {
 
 .logo {
     display: flex;
-
+    align-self: center;
+    padding-bottom: 25px;
+    
 }
+
 
 nav a {
   display: flex;
@@ -177,7 +181,7 @@ nav a {
 
 nav a:hover{
 
-    animation: -webkit tada 1s;
+    color: pink; 
 
 }
 
@@ -249,6 +253,8 @@ nav a:hover{
     margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-top: dashed black 1px;
     
 }
@@ -288,10 +294,14 @@ nav a:hover{
 }
 
 .about-bottom-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
+
+    padding: 10px;
     margin-bottom: 20px;
 }
+
+.about-top-content{
+    
+    padding: 15px; 
+}
+
 

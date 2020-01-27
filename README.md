@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML consists of HTML tags that convey meaning about elements of the doucment to humans and machines. Examples include <h1> <p> <section>. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    'display:block' allows you to add margin/padding to all four sides, and always starts on a new line. 'display:inline' only allows margin/padding to be added to the left and right side and appears on the same line as the content beside it.  
+
 
 3. What are the 4 areas of the box model?
 
+    The four areas of the box model are margin, border, padding, and content 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    'align-items: center' works on the cross axis of the flexbox. 
+
 5. Explain why git is valuable to a team of developers.
+
+    git is valuable to a team of developers because it helps monitor and control code changes made by various contributors and helps put safegaurds in place to revert to previous versions, if needed. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -65,6 +76,10 @@ Follow these steps for completing your project.
 
 Your finished project must include all of the following requirements:
 
+
+
+
+
 ### Home Page
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
@@ -74,6 +89,7 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
+done 
 * [ ] box1: `teal`
 * [ ] box2: `gold`
 * [ ] box3: `cadetblue`
@@ -84,6 +100,9 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box8: `hotpink`
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue`
+
+
+
 
 ### About Page
 
