@@ -144,3 +144,165 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+/* my code starts here */ 
+
+nav {
+
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    
+			  
+}	
+
+.logo {
+    display: flex;
+    align-self: center;
+    padding-bottom: 25px;
+    
+}
+
+
+nav a {
+  display: flex;
+  color: black; 
+  text-decoration: none;
+  width: 800px;
+  justify-content: space-evenly;
+
+}
+
+nav a:hover{
+
+    color: pink; 
+    animation: tada 2s;
+
+}
+
+.header-img {
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+
+}
+
+#box1 {
+
+    background: teal;
+}
+
+#box2 {
+
+    background: gold;
+}
+
+#box3 {
+
+    background: cadetblue;
+}
+
+#box4 {
+
+    background:coral;
+}
+
+#box5 {
+
+    background: crimson;
+}
+
+#box6 {
+
+    background: forestgreen;
+}
+
+#box7 {
+
+    background: darkorchid;
+}
+
+#box8 {
+
+    background: hotpink;
+}
+
+#box9 {
+
+    background:indigo;
+}
+
+#box10 {
+
+    background:dodgerblue;
+}
+
+
+.flexbox-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: dashed black 1px;
+    
+}
+
+.flex-item {
+
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 20px;
+    padding-bottom: 20px; 
+    border-bottom: dashed black 1px;
+
+  
+}
+
+.flex-item button {
+
+    border: solid black 2px; 
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+    font: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+
+.flex-item img{
+
+    margin-bottom: 10px;
+
+}
+
+.about-bottom-content{
+
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.about-top-content{
+    
+    padding: 15px; 
+}
+
+
