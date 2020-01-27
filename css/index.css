@@ -182,6 +182,7 @@ nav a {
 nav a:hover{
 
     color: pink; 
+    animation: tada 2s;
 
 }
 
